@@ -8,7 +8,7 @@ a.out: hello_as.o
 	ld hello_as.o
 
 hello_as.o: $(SOURCES)
-	nasm -felf64 $(SOURCES)
+	nasm $(NASMFLAGS) $(SOURCES)
 
 run: build
 	./a.out
