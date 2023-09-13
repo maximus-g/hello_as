@@ -1,5 +1,4 @@
-; Linux_x64 Assembly
-; NASM Assembler
+; "HELLO, WORLD!" x86-64 Assembly program on Ubuntu Linux using NASM Assembler
 
 
 global _start                           ; Entry point of the program
@@ -18,5 +17,5 @@ _start:
     syscall                             ; Invoke OS to exit the program
 
 section .data
-    message: db "Hello, World!!", 0xA   ; Define the string "Hello, World!!\n"
+    message: db "Hello, World!", 0xA    ; Define the string "Hello, World!!\n"
     message_len: dq $ - message         ; Evaluate the length (in bytes) of the 'message' and assign it to 'message_length'
