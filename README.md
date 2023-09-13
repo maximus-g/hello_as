@@ -1,4 +1,4 @@
-#"HELLO, WORLD!" x86-64 Assembly program on Ubuntu Linux using NASM Assembler.
+# "HELLO, WORLD!" x86-64 Assembly program on Ubuntu Linux using NASM Assembler.
 
 ## Dependencies:
 * NASM Assembler
